@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+  .main-container {
+    background-color: white;
+    height: 100vh;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+  }
+  .bg-container {
+    height: 200px;
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .container1 {
+    background-color: black;
+  }
+  .container2 {
+    background-color: white;
+  }
+  .heading {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-style: bold;
+  }
+  .button {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border-style: bold;
+    border-color: black;
+  }
+  .heading1 {
+    color: white;
+  }
+  .heading2 {
+    color: black;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    background-color: white;
+    height: 100vh;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bg-container {
+    height: 200px;
+    width: 400px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container1 {
+    background-color: black;
+  }
+  .container2 {
+    background-color: white;
+  }
+  .heading {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-style: bold;
+  }
+  .button {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    color: black;
+    border-radius: 5px;
+    border-style: bold;
+    border-color: black;
+  }
+  .heading1 {
+    color: white;
+  }
+  .heading2 {
+    color: black;
+  }
+}
